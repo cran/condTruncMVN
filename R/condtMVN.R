@@ -9,7 +9,7 @@
 #' @param lower a vector of lower bounds of length n that truncate Z
 #' @param upper a vector of upper bounds of length n that truncate Z
 #' @inheritParams condMVNorm::condMVN
-#' @param init initial value used for random generation of truncated multivariate normal in a Gibbs sampler. Default: A vector of zeros, equal to the number of components. For details, see tmvmixnorm::\code{\link[tmvmixnorm]{rtmvn}}().
+#' @param init initial value used for random generation of truncated multivariate normal in a Gibbs sampler. Default: A vector of zeros, equal to the number of components. For details, see **tmvmixnorm::**\code{\link[tmvmixnorm]{rtmvn}}().
 
 #' @return Returns a list of: \itemize{
 #'  \item condMean - conditional mean of **Y|X**
@@ -35,7 +35,7 @@
 #' This function is based on \code{\link[condMVNorm]{condMVN}} from the **condMVNorm** package.
 #'
 #' @references
-#' Wang, R. 2006. Appendix A: Marginal and conditional distributions of multivariate normal distribution. \url{http://fourier.eng.hmc.edu/e161/lectures/gaussianprocess/node7.html}.
+#' Wang, R. 2006. Marginal and conditional distributions of multivariate normal distribution. \url{http://www.ccs.neu.edu/home/vip/teach/MLcourse/3_generative_models/lecture_notes}.
 #'
 #' @examples
 #' # Suppose X2,X3,X5|X2,X4 ~ N_3(1, Sigma) and truncated between -10 and 10.

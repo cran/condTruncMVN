@@ -35,7 +35,7 @@ rcmvtruncnorm(
 
 \item{X.given}{a vector of reals denoting the conditioning value of X. This should be of the same length as \code{given.ind}}
 
-\item{init}{initial value used for random generation of truncated multivariate normal in a Gibbs sampler. Default: A vector of zeros, equal to the number of components. For details, see tmvmixnorm::\code{\link[tmvmixnorm]{rtmvn}}().}
+\item{init}{initial value used for random generation of truncated multivariate normal in a Gibbs sampler. Default: A vector of zeros, equal to the number of components. For details, see **tmvmixnorm::**\code{\link[tmvmixnorm]{rtmvn}}().}
 
 \item{burn}{the burn-in, which is the number of initial iterations to be discarded. Default: 10. Passed to \code{\link[tmvmixnorm]{rtmvn}}().}
 

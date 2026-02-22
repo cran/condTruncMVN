@@ -30,7 +30,7 @@ condtMVN(
 
 \item{X.given}{a vector of reals denoting the conditioning value of X. This should be of the same length as \code{given.ind}}
 
-\item{init}{initial value used for random generation of truncated multivariate normal in a Gibbs sampler. Default: A vector of zeros, equal to the number of components. For details, see tmvmixnorm::\code{\link[tmvmixnorm]{rtmvn}}().}
+\item{init}{initial value used for random generation of truncated multivariate normal in a Gibbs sampler. Default: A vector of zeros, equal to the number of components. For details, see **tmvmixnorm::**\code{\link[tmvmixnorm]{rtmvn}}().}
 }
 \value{
 Returns a list of: \itemize{
@@ -71,7 +71,7 @@ condtMVN(mean = rep(1, d),
 )
 }
 \references{
-Wang, R. 2006. Appendix A: Marginal and conditional distributions of multivariate normal distribution. \url{http://fourier.eng.hmc.edu/e161/lectures/gaussianprocess/node7.html}.
+Wang, R. 2006. Marginal and conditional distributions of multivariate normal distribution. \url{http://www.ccs.neu.edu/home/vip/teach/MLcourse/3_generative_models/lecture_notes}.
 }
 \seealso{
 \code{\link[condMVNorm]{cmvnorm}}, \code{\link[mvtnorm]{pmvnorm}}, \code{\link[mvtnorm]{Mvnorm}}

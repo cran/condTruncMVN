@@ -207,14 +207,12 @@ print(tmp.df)
 
 ## Final Notes
 
-<!-- Please note that the 'condTruncMVN_v-0.0.0' project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By contributing to this project, you agree to abide by its terms.
+Please note that the 'condTruncMVN' package is released with a ![Contributor Code of Conduct](../CODE_OF_CONDUCT.md). By contributing to this project, you agree to abide by its terms.
 
-Error: CODE OF CONDUCT cannot be found. Removed.
---> 
-<!-- badges: start -->
-[![Lifecycle::experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+<!-- badges: start 
+[![Lifecycle::experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+-->
+
 [![CRAN status](https://www.r-pkg.org/badges/version/condTruncMVN)](https://CRAN.R-project.org/package=condTruncMVN)
-
-
 
 ## References

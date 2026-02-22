@@ -7,12 +7,12 @@
 #' Calculates the probability that **Y|X** is between \code{lowerY} and \code{upperY}. Z = (X, Y) is the fully joint multivariate normal distribution with mean equal mean and covariance matrix sigma, truncated between lower and upper.  See the vignette for more information.
 #'
 #' @note
-#'   For one-dimension conditionals **Y|X**, this function uses the ptruncnorm() function in the truncnorm package. Otherwise, this function uses tmvtnorm::\code{\link[tmvtnorm]{ptmvnorm}}().
+#'   For one-dimension conditionals **Y|X**, this function uses the ptruncnorm() function in the truncnorm package. Otherwise, this function uses **tmvtnorm::**\code{\link[tmvtnorm]{ptmvnorm}}().
 #'
 #' @inheritParams condtMVN
 #' @param lowerY	the vector of lower limits for **Y|X**. Passed to tmvtnorm::\code{\link[tmvtnorm]{ptmvnorm}}().
 #' @param upperY	the vector of upper limits for **Y|X**. Must be greater than lowerY. Passed to tmvtnorm::\code{\link[tmvtnorm]{ptmvnorm}}().
-#' @param ... Additional arguments passed to tmvtnorm::\code{\link[tmvtnorm]{ptmvnorm}}(). The CDF is calculated using the Genz algorithm based on these arguments: maxpts, abseps, and releps.
+#' @param ... Additional arguments passed to **tmvtnorm::**\code{\link[tmvtnorm]{ptmvnorm}}(). The CDF is calculated using the Genz algorithm based on these arguments: maxpts, abseps, and releps.
 #'
 #' @importFrom tmvtnorm ptmvnorm
 #' @importFrom truncnorm ptruncnorm

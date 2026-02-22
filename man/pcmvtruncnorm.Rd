@@ -36,7 +36,7 @@ pcmvtruncnorm(
 
 \item{X.given}{a vector of reals denoting the conditioning value of X. This should be of the same length as \code{given.ind}}
 
-\item{...}{Additional arguments passed to tmvtnorm::\code{\link[tmvtnorm]{ptmvnorm}}(). The CDF is calculated using the Genz algorithm based on these arguments: maxpts, abseps, and releps.}
+\item{...}{Additional arguments passed to **tmvtnorm::**\code{\link[tmvtnorm]{ptmvnorm}}(). The CDF is calculated using the Genz algorithm based on these arguments: maxpts, abseps, and releps.}
 }
 \description{
 Computes the distribution function for  a conditional truncated multivariate normal random variate \strong{Y|X}.
@@ -45,7 +45,7 @@ Computes the distribution function for  a conditional truncated multivariate nor
 Calculates the probability that \strong{Y|X} is between \code{lowerY} and \code{upperY}. Z = (X, Y) is the fully joint multivariate normal distribution with mean equal mean and covariance matrix sigma, truncated between lower and upper.  See the vignette for more information.
 }
 \note{
-For one-dimension conditionals \strong{Y|X}, this function uses the ptruncnorm() function in the truncnorm package. Otherwise, this function uses tmvtnorm::\code{\link[tmvtnorm]{ptmvnorm}}().
+For one-dimension conditionals \strong{Y|X}, this function uses the ptruncnorm() function in the truncnorm package. Otherwise, this function uses **tmvtnorm::**\code{\link[tmvtnorm]{ptmvnorm}}().
 }
 \examples{
 # Example 1: Let X2,X3,X5|X2,X4 ~ N_3(1, Sigma)

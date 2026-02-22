@@ -1,4 +1,4 @@
-## ---- include = FALSE---------------------------------------------------------
+## ----include = FALSE----------------------------------------------------------
 knitr::opts_chunk$set(
   collapse = TRUE,  # If TRUE, all output would be in the code chunk.
   comment = "#>",
@@ -18,7 +18,7 @@ library("formatR")
 ## -----------------------------------------------------------------------------
 library("condTruncMVN")
 
-## ---- include=FALSE-----------------------------------------------------------
+## ----include=FALSE------------------------------------------------------------
 # install.packages("devtools")
 #  devtools::install_github("phargarten2/ggplot2")
 
